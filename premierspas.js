@@ -1,15 +1,8 @@
-var favoriteColor = "red";
+var number = 0;
 
-switch (favoriteColor) {
-  case "blue":
-      console.log("wouah! le bleu c'est trop beau");
+while(number<3)
 
-
-    break;
-    case "red":
-    console.log("j'aimerais bien une voiture rouge");
-
-  default:
-  console.log("Je ne connais pas t'as couleur");
-
+{
+  console.log(number);
+  number++;
 }
