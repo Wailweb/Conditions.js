@@ -1,8 +1,10 @@
 var number = 0;
 
-while(number<3)
+do
 
 {
   console.log(number);
   number++;
 }
+
+while(number>0 && number <3)
